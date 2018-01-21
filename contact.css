@@ -1,0 +1,174 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+	position: fixed;
+	width: 100%;
+}
+
+.contain {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: red;
+}
+
+.jumbotron {
+   background: url(D:/Website/images/abstract.jpg) no-repeat center center;
+   background-size: cover;
+   height: 600px;
+}
+
+.header {
+  background-color: #333;
+}
+
+.class-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.class-nav p {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-right: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.class-nav p a:hover {
+	background: black;
+        color: red;
+}
+
+.class-nav p a:active {
+	background: black;
+        color: red;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.page-name {
+  font-family: Audrey, Franchise, serif;
+  font-weight: bold;
+  font-size: 140px;
+  margin-top: 0;
+  margin-left: 220px;
+  margin-bottom: 100px;
+  word-spacing: 0.4em;
+}
+.main h2 {
+	color: white;
+	font-size: 40px;
+	margin: 20px;
+	font-style: italic;
+}
+
+
+.vert-line {
+	border-bottom: thick solid #ff0000;
+	text-align: center;
+	padding: 10px;
+	color: steelblue;
+}
+
+
+
+
+form {
+margin: 20px auto;
+width: 320px;
+color: steelblue;
+}
+
+input {
+padding: 10px;
+font-size: inherit;
+}
+
+input[type="text"] {
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid steelblue;
+background: #FAF6D9;
+}
+
+input[type="password"] {
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid steelblue;
+background: #FAF6D9;
+}
+
+input[type="email"] {
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid steelblue;
+background: #FAF6D9;
+}
+
+select{
+font-size: 16px;
+padding: 5px;
+background: #FAF6D9;
+}
+
+input[type="radio"] {
+margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child {
+margin-left: 0;
+}
+
+input[type="submit"] {
+width: 344px;
+height: 45px;
+border: none;
+background: steelblue;
+color: white;
+}
+
+input[type="submit"]:focus {
+width: 344px;
+height: 45px;
+border: solid steelblue;
+background: white;
+color: steelblue;
+}
+
+input:focus {
+background: white;
+}
+
+input[type="radio"]:checked + label {
+font-weight: bold;
+font-size: 18px;
+}
+
+
+  
+.end {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.end p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}

@@ -1,0 +1,162 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+	position: fixed;
+	width: 100%;
+}
+
+.contain {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: red;
+}
+
+.jumbotron {
+   background: url(D:/Website/images/measuring-tape.jpg) no-repeat center center;
+   background-size: cover;
+   height: 800px;
+}
+
+.header {
+  background-color: #333;
+}
+
+.class-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.class-nav p {
+  color: #fff;
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-right: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.class-nav p a:hover {
+	background: black;
+        color: red;
+}
+
+.class-nav p a:active {
+	background: black;
+        color: red;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.page-name {
+  font-family: Audrey, Franchise, serif;
+  font-weight: bold;
+  font-size: 110px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  word-spacing: 0.4em;
+}
+.main h2 {
+	color: black;
+	font-size: 40px;
+	margin: 30px;
+	font-style: italic;
+}
+
+
+.cal-bmi {
+	font-size: 18px;
+	margin: auto;
+}
+
+
+form {
+margin: 20px auto;
+width: 320px;
+color: steelblue;
+}
+
+input {
+padding: 10px;
+font-size: inherit;
+}
+
+
+input[type="text"] {
+display: block;
+margin-bottom: 25px;
+width: 100%;
+border: 2px solid steelblue;
+background: #FAF6D9;
+}
+
+input[type="button"] {
+width: 344px;
+height: 45px;
+border: none;
+background: steelblue;
+color: white;
+}
+
+input[type="button"]:focus {
+width: 344px;
+height: 45px;
+border: solid steelblue;
+background: white;
+color: steelblue;
+}
+
+input:focus {
+background: white;
+}
+
+input[type="reset"] {
+width: 175px;
+height: 45px;
+border: none;
+background: steelblue;
+color: white;
+}
+
+input[type="reset"]:focus {
+width: 175px;
+height: 45px;
+border: solid steelblue;
+background: white;
+color: steelblue;
+}
+
+.btn-main {
+  background-color: #333;
+  color: red;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 30px;
+  
+}
+.end {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.end p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
